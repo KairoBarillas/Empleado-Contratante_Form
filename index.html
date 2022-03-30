@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="">
+                <h3>Welcome</h3>
+                <p>You are 30 seconds away from earning your own money!</p>
+                <input type="submit" value="Login"><br/>
+            </div>
+            <div class="col-md-9 register-right">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" id="home-tab" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true">Employee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#profile" class="nav-link" id="profile-tab" data-toggle="tab" role="tab" aria-controls="profile" aria-selected="false">Hirer</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Apply as a Employee</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="" id="" placeholder="First Name *" value="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="" id="" placeholder="Last Name *" value="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="" id="" placeholder="Password *" value="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="" id="" placeholder="Confirm Password *" value="">
+                                </div>
+                                <div class="form-group">
+                                    <div class="maxl">
+                                        <label for="" class="radio inline">
+                                            <input type="radio" name="gender" id="" value="male" checked>
+                                            <span>Male</span>
+                                        </label>
+                                        <label for="" class="radio inline">
+                                            <input type="radio" name="gender" id="" value="female">
+                                            <span>Female</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="" id="" class="form-control" placeholder="Your Email *" value="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtEmpPhone" id="" minlength="10" maxlength="10" class="form-control" placeholder="Your Phone *" value="">
+                                </div>
+                                <div class="form-group">
+                                    <select name="" id="" class="form-control">
+                                        <option value="" class="hidden" selected disabled>Please select your security question</option>
+                                        <option value="">What is your birthdate?</option>
+                                        <option value="">What is your old phone number?</option>
+                                        <option value="">What is your pet name?</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Enter your answer *">
+                                </div>
+                                <input type="submit" value="Register" class="btnRegister">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3 class="register-heading">Apply as a Hirer</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="" id="" class="form-control" placeholder="First Name *">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Last Name *">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="" id="" class="form-control" placeholder="Email *">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Phone *" minlength="10" maxlength="10">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" name="" id="" class="form-control" placeholder="Password *">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="" id="" class="form-control" placeholder="Confirm Password *">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" name="" id="">
+                                        <option class="hidden" value="" selected disabled>Please select your security question</option>
+                                        <option value="">What is your birthdate?</option>
+                                        <option value="">What is your old phone number?</option>    
+                                        <option value="">What is your pet name?</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Enter your answer *">
+                                </div>
+                                <input type="submit" value="Register" class="btnRegister">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled Bootstrap 4 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!--CSS rules to specify families
+font-family: 'Syne', sans-serif;-->
