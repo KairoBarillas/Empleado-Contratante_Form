@@ -4,7 +4,7 @@
 
 .register{
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
-    margin-top: 3%;
+    margin-top: 7%;
     padding: 3%;
 }
 
@@ -79,7 +79,8 @@
     border: none;
     background: #0062cc;
     border-radius: 1.5rem;
-    width: 28%;
+    min-width: 28%;
+    max-width: 40%;/*40% para fix 800px nexus*/
     float: right;
 }
 
